@@ -61,9 +61,7 @@ class rootpagestate extends State<rootpage>
           onSignedOut: _signedOut,
         );
     }
-    return Container(
-      child: Text("Hello"),
-    );
+    return null;
   }
 
   Widget _buildWaitingScreen() {

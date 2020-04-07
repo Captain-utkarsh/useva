@@ -12,6 +12,14 @@ void main() => runApp(
     AuthProvider(auth:Auth(),
         child: MaterialApp(
             debugShowCheckedModeBanner: false,
+//            theme: new ThemeData(
+//                primarySwatch: Colors.grey,
+//                primaryTextTheme: TextTheme(
+//                    title: TextStyle(
+//                        color: Colors.white
+//                    )
+//                )
+//            ),
             home: MainPage()
         ))
 );
